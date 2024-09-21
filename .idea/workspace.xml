@@ -5,25 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92067e37-c99d-468d-a28d-9a18c42d9176" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Gestion_Bibliotheque.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_Bibliotheque/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_Bibliotheque/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_Bibliotheque/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_Bibliotheque/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Gestion_Bibliotheque/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bibliotheque/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/comptabilite/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gestion/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/home/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/membres/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/notifications/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/preposes/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base/body.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bibliotheque/details_documents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bibliotheque/form_dcuments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bibliotheque/liste_documents.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/comptabilite/historique_paiements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/comptabilite/paiement.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gestion/rapport_emprunts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gestion/rapport_retours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home/acceuil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membres/emprunts_membre.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membres/inscription.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/membres/profil.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notifications/notification_emprunts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/notifications/notifications_retours.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/preposes/gestion_emprunts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/preposes/liste_membres.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bibliotheque/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bibliotheque/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/home/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/home/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,36 +39,46 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 5
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2lEWogCTR5igxfsb5DJKYgqDl0D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.manage.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.lookFeel",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Gestion_Bibliotheque.executor&quot;: &quot;Run&quot;,
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
+    &quot;django.template.preview.state&quot;: &quot;SHOW_EDITOR_AND_PREVIEW&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Utilisateur\PycharmProjects\Gestion_bibliotheque\Gestion_Bibliotheque\templates" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.manage">
     <configuration name="manage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Gestion_Bibliotheque" />
@@ -98,6 +110,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="Gestion_Bibliotheque.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -137,7 +150,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724745892602</updated>
-      <workItem from="1724745893933" duration="3844000" />
+      <workItem from="1724745893933" duration="15536000" />
+      <workItem from="1725652876364" duration="10513000" />
+      <workItem from="1726100852807" duration="1318000" />
     </task>
     <servers />
   </component>
